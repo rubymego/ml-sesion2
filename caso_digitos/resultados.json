@@ -1,0 +1,45 @@
+{
+  "config": {
+    "secuencial": {
+      "capas": [
+        64,
+        32
+      ],
+      "dropout": 0.2,
+      "l2": 0.0001,
+      "lr": 0.001
+    },
+    "funcional": {
+      "capas": [
+        128,
+        64
+      ],
+      "dropout": 0.3,
+      "l2": 0.0001,
+      "lr": 0.001
+    },
+    "batch_size": 32,
+    "epocas_max": 200,
+    "paciencia": 15,
+    "semilla": 42
+  },
+  "resultados": {
+    "secuencial": {
+      "parametros": 6570,
+      "epocas_efectivas": 88,
+      "acc_valida": 0.9861111111111112,
+      "f1_valida": 0.9861818054580347,
+      "acc_prueba": 0.9833333333333333,
+      "f1_prueba": 0.983161453360851
+    },
+    "funcional": {
+      "parametros": 17226,
+      "epocas_efectivas": 103,
+      "acc_valida": 0.9805555555555555,
+      "f1_valida": 0.980693984701006,
+      "acc_prueba": 0.9861111111111112,
+      "f1_prueba": 0.9859518450122348
+    }
+  },
+  "elegido": "secuencial"
+}

@@ -1,0 +1,15 @@
+{
+  "dibujos_propios": {
+    "total": 20,
+    "correctos": 12,
+    "accuracy": 0.6,
+    "avisos_baja_confianza": 4
+  },
+  "ruido": {
+    "sigma": 0.15,
+    "imagenes": 30,
+    "accuracy_original": 1.0,
+    "accuracy_con_ruido": 0.9666666666666667
+  },
+  "prueba_completa": 0.9833333333333333
+}

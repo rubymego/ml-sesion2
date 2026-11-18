@@ -1,0 +1,17 @@
+{
+  "entrada": 64,
+  "forma_imagen": [
+    8,
+    8
+  ],
+  "escala_original": [
+    0,
+    16.0
+  ],
+  "escala_modelo": [
+    0,
+    1
+  ],
+  "operacion": "pixel / 16",
+  "modelo": "secuencial"
+}
